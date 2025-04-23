@@ -58,7 +58,7 @@ def get_info_ls():
         res = json.loads(response.text)['data']['resultList']
         yield res
 
-def process_data():
+def process_data():git
     res_ls = get_info_ls()
     for infos in res_ls:
         for info in infos:
